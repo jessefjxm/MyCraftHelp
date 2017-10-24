@@ -28,7 +28,7 @@ public class MyCraftJail extends JavaPlugin implements Listener {
 			getServer().getPluginManager().disablePlugin(this);
 			return;
 		}
-//		this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
+		this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
 		this.getServer().getMessenger().registerIncomingPluginChannel(this, "MyCraftJail", new BungeeMessageListener());
 		this.logger.info("[" + pdfFile.getName() + "] has been enabled.");
 		super.onEnable();
