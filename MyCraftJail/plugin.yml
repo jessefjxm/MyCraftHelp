@@ -1,0 +1,6 @@
+main: com.mycraft.MyCraftJail.MyCraftJail
+name: MyCraftJail
+version: 0.1
+author: Jessefjxm
+depend: [Vault] 
+description: Jail bukkit side.
